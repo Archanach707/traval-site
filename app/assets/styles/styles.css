@@ -1,0 +1,8 @@
+@import './base/_variables.css';
+
+
+ body {
+   position: relative;
+   color: $mainOrange;
+   background: #000;
+ }  
