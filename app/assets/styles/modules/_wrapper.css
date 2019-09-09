@@ -1,4 +1,10 @@
 .wrapper {
   padding-right: 18px;
   padding-left: 18px;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
 }
+
+
+

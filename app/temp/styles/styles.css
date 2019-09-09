@@ -440,7 +440,17 @@ template {
 .wrapper {
   padding-right: 18px;
   padding-left: 18px;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
 }
+.page-section {
+  padding: 4.5rem 0;
+}
+.page-section--blue {
+    background-color: #2f5572;
+    color: #FFF;   
+  }
 body {
   position: relative;
   font-family: Roboto, sans-serif;
