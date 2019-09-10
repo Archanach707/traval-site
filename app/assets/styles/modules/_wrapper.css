@@ -4,6 +4,16 @@
   max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
+
+  &--medium {
+    max-width: 976px;
+  }
+
+.wrapper {
+  padding-right: 0;
+  padding-left: 0;
+}
+
 }
 
 
