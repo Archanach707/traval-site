@@ -1,24 +1,34 @@
 .row {
-  background-color: yellow;
-  
-  @mixins clearfix;
+  @mixin clearfix; 
 
-  &__gutters > div {
+  &--gutters > div {
     padding-right: 65px;
     box-sizing: border-box;
   }
 
-  &__4 {
+  &__b-margin-until-medium {
+    margin-bottom: 0;
+  }
+
+  @mixin atMedium {  
+  &__medium-4 {
     float: left;
     width: 33.33%;
   } 
 
-  &__8 {
+  &__medium-4--larger {
+    width: 33%;
+  }
+
+  &__medium-8 {
     float: left;
     width: 66.66%;
   }
-}
 
-.clear-me {
-  clear: both;
+  &__medium-8--smaller {
+    width: 63%;
+  }
+
+  }
+
 }
