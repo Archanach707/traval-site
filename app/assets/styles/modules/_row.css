@@ -5,7 +5,7 @@
     margin-right: -65px;
   }
   
-  &--gutters-larger {
+  &--gutters-large {
     margin-right: -100px;
   }
 
@@ -14,7 +14,7 @@
     box-sizing: border-box;
   }
 
-  &--gutters-larger > div {
+  &--gutters-large > div {
     padding-right: 100px;
   }
 
