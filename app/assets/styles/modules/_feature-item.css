@@ -4,7 +4,7 @@
 
   @mixin atSmall {
     padding-left: 94px;
-  }
+  }  
   
   &__icon {
     display: block;
@@ -14,7 +14,7 @@
       position: absolute;
       left: 0;
     }
-  }
+  } 
 
   &__title {
     font-size: 1.6rem;
