@@ -724,15 +724,16 @@ a {
   }
 
 .generic-content-container p {
+    font-weight: 300;
     line-height: 1.65;
-    margin: 1.8rem 0;
+    margin: 1.8rem 0; 
   
   }
 
 @media (min-width: 530px) {
 
 .generic-content-container p {
-      font-size: 1.125rem
+      font-size: 1.125rem 
   
   }
   }
