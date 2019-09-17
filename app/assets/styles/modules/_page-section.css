@@ -10,10 +10,10 @@
     color: #FFF;   
   }
 
-  &--testimonials {
-    background: url("../assets/images/testimonials-bg.jpg"); 
+  &--testimonial {
+    background: url("../../assets/images/testimonial-bg.jpg");
     background-position: top center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
   }
 }
