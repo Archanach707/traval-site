@@ -4,8 +4,8 @@
 
   @mixin atSmall {
     padding-left: 94px;
-  }  
-  
+  }
+   
   &__icon {
     display: block;
     margin: 0 auto;
@@ -14,7 +14,9 @@
       position: absolute;
       left: 0;
     }
-  } 
+
+  }
+>>>>>>> testimonials
 
   &__title {
     font-size: 1.6rem;
@@ -27,8 +29,8 @@
       text-align: left;
       margin-top: 1em;
       font-size: 1.875rem;
-      
     }
   }
 
 }
+
