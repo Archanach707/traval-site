@@ -12,6 +12,8 @@
 node_modules/
 .tmp/
 *.idea
+.idea/
+.idea/workspace.xml
 
 # OS or Editor folders
 .DS_Store
