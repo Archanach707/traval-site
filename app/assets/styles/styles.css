@@ -13,6 +13,9 @@
 @import "modules/_feature-item";
 @import "modules/_ac-testimonials";
 @import "modules/_site-footer";
+@import "modules/_site-header";
+@import "modules/_primary-nav";
+
 body {
   position: relative;
   font-family: Roboto, sans-serif;
