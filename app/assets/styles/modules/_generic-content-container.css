@@ -6,7 +6,7 @@
   
     @mixin atSmall {
       font-size: 1.125rem;   
-      margint-bottom: .8rem;
+      margin-bottom: .8rem;
     }
   
   }
