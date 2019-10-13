@@ -7,7 +7,7 @@ var config = {
     css: {
       render: {
         css: {
-          templates: './gulp/templates/sprite.css'
+          template: './gulp/templates/sprite.css'
         }
       }
     }
@@ -24,6 +24,7 @@ gulp.task('copySpriteCSS', ['createSprite'], function() {
   return gulp.src('./app/temp/sprite/css/*.css')
     .pipe(rename('_sprite.css'))
     .pipe(gulp.dest('./app/assets/styles/modules'));
+    
 });
 
-gulp.task('icons', ['createSprite', 'copySpriteCSS']);
+/**gulp.task('icons', ['createSprite', 'copySpriteCSS']); */

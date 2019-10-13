@@ -3,9 +3,10 @@
 
 {{#shapes}}
   {{#first}}
-  .icons {
-    background-image: url('/temp/sprite/css/{{{sprite}}}');
-  }
+  .icon {
+    background-image: url('/app/temp/sprite/css/{{{sprite}}}');
+    display: inline-block;
+  } 
   {{/first}}
   
   .icon--{{base}} {
