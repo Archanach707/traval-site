@@ -13,7 +13,7 @@ class StickyHeader {
     this.createPageSectionWaypoints();
     this.addSmoothScrolling();
     this.refreshWaypoints();
-  }
+  } 
  
   refreshWaypoints() {
     this.lazyImages.on('load', function() {
@@ -57,9 +57,9 @@ class StickyHeader {
 
       new Waypoint({
         element: currentPageSection,
-        handler: function(direction) {
+        handler: function(direction) {  
           if (direction == "up") {
-            var matchingHeaderLink = currentPageSection.getAttribute("data-matching-link");
+            var matchingHeaderLink = currentPageSection.getAttribute("data-matching-link"); 
             that.headerLinks.removeClass("is-current-link");
             $(matchingHeaderLink).addClass("is-current-link");
           }
